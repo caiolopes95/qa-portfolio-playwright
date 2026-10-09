@@ -52,15 +52,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    // Firefox - habilitaremos na etapa de cross-browser
-    /*
+    // Firefox - habilitaremos na etapa de cross-browser    
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-    */
+    
 
     // WebKit - habilitaremos na etapa de cross-browser
+
     /*
     {
       name: 'webkit',
