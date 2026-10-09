@@ -61,12 +61,12 @@ export default defineConfig({
 
     // WebKit - habilitaremos na etapa de cross-browser
 
-    /*
+    
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-    */
+    
 
   ],
 
