@@ -1,8 +1,61 @@
-
-# Playwright
-node_modules/
+# ==========================================
+# PLAYWRIGHT
+# ==========================================
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# ==========================================
+# NODE.JS - DEPENDÊNCIAS
+# ==========================================
+node_modules/
+jspm_packages/
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ==========================================
+# TYPESCRIPT
+# ==========================================
+*.tsbuildinfo
+
+# ==========================================
+# COBERTURA DE TESTES
+# ==========================================
+coverage/
+*.lcov
+.nyc_output/
+
+# ==========================================
+# CACHE
+# ==========================================
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.vite/
+
+# ==========================================
+# VARIÁVEIS DE AMBIENTE
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# ARQUIVOS TEMPORÁRIOS
+# ==========================================
+*.tgz
+*.pid
+*.pid.lock
+*.seed
